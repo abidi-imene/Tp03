@@ -18,6 +18,11 @@ typedef struct element
 	
 	   element*chargerliste(int tab[],int n,element*liste)
 	    {
+                if(nouveau == NULL)
+                   {
+                      printf("echec d'allocation !!");
+                       exit(1);
+                     }
 		        
 		        for(int i=0;i<n;i++)
 				   {
