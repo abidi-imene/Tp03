@@ -24,11 +24,7 @@ typedef struct element
 				   {
 		        	
 		        	element*nouveau = (element*)malloc(sizeof(element));
-                                  if(nouveau== NULL)
-                                   {
-                                       printf("erreur");
-                                       exit(1);
-                                     }
+                                {
 		        	nouveau->val = tab[i];
 		        	nouveau->suivant = liste;
 		        	liste = nouveau ;
